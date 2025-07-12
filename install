@@ -1,0 +1,4 @@
+Centos x86_64:yum -y install wget unzip;rm -f iycms.sh;wget --no-check-certificate -c -O iycms.sh https://www.iycms.com/api/static/down/linux/centos/install_x86_64.sh;chmod +x iycms.sh;./iycms.sh
+Centos arm64:yum -y install wget unzip;rm -f iycms.sh;wget --no-check-certificate -c -O iycms.sh https://www.iycms.com/api/static/down/linux/centos/install_arm64.sh;chmod +x iycms.sh;./iycms.sh
+Ubuntu x86_64:sudo rm -f iycms.sh; sudo wget --no-check-certificate -c -O iycms.sh https://www.iycms.com/api/static/down/linux/ubuntu/install_x86_64.sh;sudo chmod +x iycms.sh;sudo ./iycms.sh
+Ubuntu arm64:sudo rm -f iycms.sh; sudo wget --no-check-certificate -c -O iycms.sh https://www.iycms.com/api/static/down/linux/ubuntu/install_arm64.sh;sudo chmod +x iycms.sh;sudo ./iycms.sh
